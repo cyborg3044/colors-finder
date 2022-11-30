@@ -1,0 +1,45 @@
+.App {
+  background-color: #fafafa;
+  padding: 10px;
+}
+
+.Header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: 28px;
+  color: black;
+}
+
+.Input {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+.Input-label {
+  font-weight: 300;
+  font-size: small;
+}
+
+.Colours {
+  margin-top: 10px;
+  font-weight: 300;
+  font-size: small;
+  text-align: left;
+}
+
+.Error {
+  font-weight: 300;
+  font-size: small;
+  color: red;
+  margin-top: 10px;
+}
+
+.Result {
+  margin-top: 10px;
+  font-weight: 300;
+  font-size: small;
+}
